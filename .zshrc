@@ -22,9 +22,9 @@ PROMPT='[%F{magenta}%B%n%b%f@%F{blue}%U%m%u%f]# '
 RPROMPT='[%F{green}%d%f]'
 
 alias ls="ls -G"
-alias l="ls -GF"
+alias l="ls -G"
 alias ll='ls -alG'
-alias la="ls -aFG"
+alias la="ls -AG"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
