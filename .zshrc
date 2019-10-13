@@ -18,9 +18,6 @@ setopt print_eight_bit
 setopt hist_ignore_dups
 setopt inc_append_history
 
-PROMPT='[%F{magenta}%B%n%b%f@%F{blue}%U%m%u%f]# '
-RPROMPT='[%F{green}%d%f]'
-
 alias ls="ls -G"
 alias l="ls -G"
 alias ll='ls -alG'
